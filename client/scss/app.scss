@@ -1,0 +1,27 @@
+$slick-font-path: "/fonts/";
+$slick-arrow-color: #2f6899;
+
+@import "./normalize";
+@import "slick-carousel/slick/slick";
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.format {
+	background: #f4f4f4;
+}
+
+.kata {
+	background: #f4f4f4;
+}
+
+.task {
+	background: #f4f4f4;
+}
