@@ -252,23 +252,23 @@ var tasks = [
   },
   {
     header: "Baue ein Design Pattern ein",
-    text: <p>Todo</p>
+    text: <p>Hol das verstaubte GoF-Buch aus dem Regal und finde ein Design Pattern, das gut zu der ausgewählten
+          Kata passen könnte. Oder formuliere die Kata so um, dass sie zu dem Design Pattern passt, welches Du
+          gerne ausprobieren möchtest. Design Patterns sind gar nicht so schlecht - man benötigt nur regelmäßige
+          Übung, damit man weiß, wann man welches einsetzen sollte.</p>
   },
   {
     header: "Extreme Committing",
-    text: <p>Todo</p>
-  },
-  {
-    header: "Zwei Entscheidungswege",
-    text: <p>Todo</p>
-  },
-  {
-    header: "Docker",
-    text: <p>Todo</p>
-  },
-  {
-    header: "Concurrency",
-    text: <p>Todo</p>
+    text: <div><p>Lerne Dein Versionsverwaltungssystem Deiner Wahl besser kennen. Sei es Visual SourceSafe,
+          Subversion oder Git: bei allen kannst Du zumindest committen und branchen. Versuche mal folgenden
+          Workflow für einen TDD-Circle:</p>
+          <li>erstelle einen branch</li>
+          <li>schreibe einen roten Test; commit</li>
+          <li>mache den Test grün; commit</li>
+          <li>refaktorisiere; commit, commit, commit (je nachdem, wie viel Du verbessern möchtest)</li>
+          <li>merge den branch wieder in den Hauptzweig zurück</li>
+          <p>Falls Du so etwas sowieso standardmäßig machst, gibt es bestimmt noch eine Ecke in Deinem VCS,
+          die Du noch nicht kennst. Guggst Du!</p></div>
   },
   {
     header: "Continuous Integration",
